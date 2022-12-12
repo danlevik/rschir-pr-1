@@ -1,0 +1,18 @@
+body {
+  --text-color: #eee;
+  --bkg-color: #121212;
+}
+
+* {
+  font-family: "Times New Roman", Times, serif;
+}
+
+body {
+  background: var(--bkg-color);
+}
+
+h1,
+p,
+label {
+  color: var(--text-color);
+}
